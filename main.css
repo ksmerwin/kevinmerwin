@@ -1,11 +1,22 @@
-
 body {
-  background-color: black
+    background-color: black;
+    font-family: sans-serif;
+}
+
+header {
+    color: white;
+    margin-left: 1mm;
 }
 
 h1 {
-  color: white
+    padding-left: 10%;
+    color: white
 }
+
+tr {
+    right: 10%;
+}
+
 p {
-  color:white
+    color: white
 }
