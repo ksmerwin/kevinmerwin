@@ -1,19 +1,23 @@
 body {
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0;
 }
 
 header {
-    background-color: grey;
-    width: 50%;
+    background-color: rgb(58, 54, 54);
+    width: 100%;
     padding-bottom: 5mm;
     padding-top: 2.5mm;
     padding-left: 1mm;
+    position: fixed;
+    top: 0;
 }
 
 .ynp {
-    width: 500px;
+    width: 400px;
     padding-left: 50px;
+    display: flex;
 }
 
 title {
@@ -21,17 +25,12 @@ title {
 }
 
 h1 {
-    padding-left: 10%;
+    padding-left: 15px;
     color: white;
     font-size: 100px;
 }
 
 #Home {
-    color: white;
-}
-
-table {
-    float: right;
     color: white;
 }
 
@@ -52,7 +51,7 @@ li {
 
 p {
     color: white;
-    padding-left: 10%;
+    padding: 10px;
     width: 400px;
     font-size: larger;
 }
