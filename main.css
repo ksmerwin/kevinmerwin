@@ -4,8 +4,15 @@ body {
 }
 
 header {
+    background-color: grey;
+    width: 50%;
+    padding-bottom: 5mm;
+    padding-top: 2.5mm;
+    padding-left: 1mm;
+}
+
+title {
     color: white;
-    margin-left: 1mm;
 }
 
 h1 {
@@ -13,8 +20,28 @@ h1 {
     color: white
 }
 
-tr {
-    right: 10%;
+#Home {
+    color: white;
+}
+
+table {
+    float: right;
+    color: white;
+}
+
+ul {
+    color: white;
+    right: 1mm;
+    top: 1mm;
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    display: flex;
+    position: fixed;
+}
+
+li {
+    padding: 1mm;
 }
 
 p {
