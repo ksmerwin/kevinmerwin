@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -11,13 +11,19 @@ header {
     padding-left: 1mm;
 }
 
+.ynp {
+    width: 500px;
+    padding-left: 50px;
+}
+
 title {
     color: white;
 }
 
 h1 {
     padding-left: 10%;
-    color: white
+    color: white;
+    font-size: 100px;
 }
 
 #Home {
@@ -45,5 +51,8 @@ li {
 }
 
 p {
-    color: white
+    color: white;
+    padding-left: 10%;
+    width: 400px;
+    font-size: larger;
 }
