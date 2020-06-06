@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 0;
 }
 
 header {
-    background-color: rgb(58, 54, 54);
+    background-color: black;
     width: 100%;
     padding-bottom: 5mm;
     padding-top: 2.5mm;
@@ -16,11 +16,12 @@ header {
 
 .ynp {
     width: 400px;
-    padding-left: 50px;
+    padding-left: 150px;
 }
 
 .imageandcap {
     display: flex;
+    padding-bottom: 25px;
 }
 
 title {
@@ -60,8 +61,8 @@ li {
 
 p {
     color: white;
-    padding: 10px;
-    width: 400px;
+    padding-left: 25px;
+    width: 450px;
     font-size: larger;
     display: inline-block;
 }
