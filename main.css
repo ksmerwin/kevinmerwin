@@ -17,6 +17,9 @@ header {
 .ynp {
     width: 400px;
     padding-left: 50px;
+}
+
+.imageandcap {
     display: flex;
 }
 
@@ -32,6 +35,7 @@ h1 {
 
 #Home {
     color: white;
+    font-size: 15px;
 }
 
 ul {
@@ -49,9 +53,15 @@ li {
     padding: 1mm;
 }
 
+#insta {
+    width: 19px;
+    background-color: black;
+}
+
 p {
     color: white;
     padding: 10px;
     width: 400px;
     font-size: larger;
+    display: inline-block;
 }
